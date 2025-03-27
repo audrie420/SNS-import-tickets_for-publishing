@@ -1,0 +1,26 @@
+# how to format .gitignore file
+# # Ignore all `.log` files
+# *.log
+
+# # Ignore a specific file
+# secret_config.txt
+
+# # Ignore a folder and its contents
+# /node_modules/
+
+# keys
+cust_data_API_interactors/keys.py
+
+# data
+/API_logs_folder/
+/past_incoming_files/
+/past_output_files/
+/zzz_testarchive/
+/__pycache__/
+
+# .csv files and .pyc files
+*.pyc
+*.csv
+
+# specific files
+zzz_test_df_search.py
